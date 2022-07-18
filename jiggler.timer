@@ -1,0 +1,10 @@
+[Unit]
+Description=Start the jiggler service every work day at 8
+
+[Timer]
+OnCalendar=Mon..Fri *-*-* 08:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
