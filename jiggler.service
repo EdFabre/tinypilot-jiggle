@@ -3,7 +3,7 @@ Description=This service jiggles the Tiny Pilot Voyager 2 mouse.
 
 [Service]
 Type=simple
-ExecStart=timeout 480m bash /opt/scripts/tinypilot-jiggle/tinypilot-jiggle.bash
+ExecStart=timeout 480m bash /opt/scripts/tinypilot-jiggle.bash
 Restart=on-failure
 RestartSec=5s
 
