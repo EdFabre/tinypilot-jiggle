@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Running Jiggler installer. Requires Root"
 mkdir -p /opt/scripts
 systemctl stop jiggler.service
 systemctl stop jiggler.timer
